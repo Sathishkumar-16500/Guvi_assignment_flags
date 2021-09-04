@@ -1,0 +1,97 @@
+body{
+    height: 100vh;
+    margin: 0;
+    /* background-color: red; */
+    background-color: #2d3436;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.container-lg{
+    margin: 0px;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.country{
+    height: 400px;
+    width: 330px;
+    border-radius: 10px;
+    border: 3px solid #222627;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.usa-country-image{
+    background-image: url('https://cssdeck.com/blog/wp-content/uploads/2008/06/us-flag.gif');
+    height: 210px;
+    background-repeat: no-repeat;
+    width: initial;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.germany-country-image{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/86/Flag_of_Germany_%283-2_aspect_ratio%29.svg');
+    height: 210px;
+    background-repeat: no-repeat;
+    width: initial;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.uk-country-image{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg');
+    height: 210px;
+    background-repeat: no-repeat;
+    width: initial;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.india-country-image{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg');
+    height: 210px;
+    background-repeat: no-repeat;
+    width: initial;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.country-details{
+    height: 185px;
+    background-color: #1b1f20;
+    width: initial;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    color: white;
+}
+.heading{
+    text-align: center;
+}
+.population{
+    display: flex;
+    justify-content: center;
+}
+.continent{
+    display: flex;
+    justify-content: center;
+}
+.capital{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 990px) {
+    body {
+      /* do something.. */
+      height: 435vh;
+    }
+  }
